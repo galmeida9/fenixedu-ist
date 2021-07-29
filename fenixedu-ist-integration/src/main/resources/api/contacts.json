@@ -1,0 +1,23 @@
+{
+  "en-GB": [
+    {
+      "name": "Alameda Campus",
+      "fax": "+351218499242",
+      "phone": "+351218417000",
+      "email": "",
+      "address": "Av. Rovisco Pais, 1",
+      "postalCode": "1049-001 Lisboa",
+      "workingHours": ""
+    } ],
+  "pt-PT" : [
+    {
+      "name": "Campus Alameda",
+      "fax": "+351218499242",
+      "phone": "+351218417000",
+      "email": "",
+      "address": "Av. Rovisco Pais, 1",
+      "postalCode": "1049-001 Lisboa",
+      "workingHours": ""
+    }
+  ]
+}

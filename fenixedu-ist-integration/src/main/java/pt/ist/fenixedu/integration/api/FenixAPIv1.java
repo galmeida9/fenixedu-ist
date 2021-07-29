@@ -26,12 +26,7 @@ import com.google.common.collect.FluentIterable;
 import com.google.common.collect.Ordering;
 import com.google.common.io.ByteStreams;
 import com.google.common.net.HttpHeaders;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
+import com.google.gson.*;
 import net.fortuna.ical4j.model.Calendar;
 import org.fenixedu.academic.domain.AdHocEvaluation;
 import org.fenixedu.academic.domain.Attends;
@@ -205,22 +200,11 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.core.StreamingOutput;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Base64;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -1049,7 +1033,15 @@ public class FenixAPIv1 {
     @Produces(JSON_UTF8)
     @Path("contacts")
     public String contacts() {
-        return FenixAPIFromExternalServer.getContacts();
+        JsonParser parser = new JsonParser();
+        //TODO: put path in constant
+        InputStream stream = getClass().getResourceAsStream("/api/contacts.json");
+        if (stream == null) {
+            return "no.contacts.found";
+        }
+        JsonElement obj = parser.parse(new InputStreamReader(stream));
+        JsonObject root = obj.getAsJsonObject();
+        return root.get(I18N.getLocale().toLanguageTag()).toString();
     }
 
     @GET
