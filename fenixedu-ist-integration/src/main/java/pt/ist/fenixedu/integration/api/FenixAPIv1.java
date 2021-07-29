@@ -1034,7 +1034,6 @@ public class FenixAPIv1 {
     @Path("contacts")
     public String contacts() {
         JsonParser parser = new JsonParser();
-        //TODO: put path in constant
         InputStream stream = getClass().getResourceAsStream("/api/contacts.json");
         if (stream == null) {
             return "no.contacts.found";
@@ -1048,7 +1047,13 @@ public class FenixAPIv1 {
     @Produces(JSON_UTF8)
     @Path("shuttle")
     public String shuttle() {
-        return FenixAPIFromExternalServer.getShuttle();
+        JsonParser parser = new JsonParser();
+        InputStream stream = getClass().getResourceAsStream("/api/shuttle.json");
+        if (stream == null) {
+            return "no.shuttle.schedule.found";
+        }
+        JsonElement obj = parser.parse(new InputStreamReader(stream));
+        return obj.getAsJsonObject().toString();
     }
 
     private static Unit getSectionOrScientificArea(Unit unit) {

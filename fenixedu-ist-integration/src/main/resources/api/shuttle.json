@@ -1,0 +1,37 @@
+{
+  "stations": [
+    {
+      "name": "Alameda",
+      "address": "Avenida Manuel da Maia 36",
+      "latlng": "38.736926,-9.136565"
+    }
+  ],
+  "date": [
+    {
+      "start": "15/09/2014",
+      "end": "30/09/2014",
+      "type": "weekday"
+    },
+    {
+      "start": "01/10/2014",
+      "end": "31/10/2014",
+      "type": "weekday"
+    },
+    {
+      "start": "03/11/2014",
+      "end": "28/11/2014",
+      "type": "weekday"
+    }
+  ],
+  "trips": [
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "07.15",
+          "station": "Alameda"
+        }
+      ]
+    }
+  ]
+}
