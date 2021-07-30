@@ -26,7 +26,12 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.Response.Status;
 
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import pt.ist.fenixedu.integration.FenixEduIstIntegrationConfiguration;
+
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 @Path("/fenix/v1/parking")
 public class FenixParking {
@@ -40,13 +45,12 @@ public class FenixParking {
     @GET
     @Produces(FenixAPIv1.JSON_UTF8)
     public String parking() {
-        try {
-            return client.target(FenixEduIstIntegrationConfiguration.getConfiguration().getApiParkingUrl())
-                    .queryParam("username", FenixEduIstIntegrationConfiguration.getConfiguration().getApiParkingUsername())
-                    .queryParam("password", FenixEduIstIntegrationConfiguration.getConfiguration().getApiParkingPassword())
-                    .request().get(String.class);
-        } catch (Exception e) {
-            throw new WebApplicationException(Status.INTERNAL_SERVER_ERROR);
+        JsonParser parser = new JsonParser();
+        InputStream stream = getClass().getResourceAsStream("/api/parking.json");
+        if (stream == null) {
+            return "no.parking.information.found";
         }
+        JsonElement obj = parser.parse(new InputStreamReader(stream));
+        return obj.getAsJsonObject().toString();
     }
 }
