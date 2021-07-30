@@ -2,25 +2,200 @@
   "stations": [
     {
       "name": "Alameda",
-      "address": "Avenida Manuel da Maia 36",
-      "latlng": "38.736926,-9.136565"
+      "address": "Av. de António José de Almeida",
+      "latlng": "38.7380052,-9.1376664"
+    },
+    {
+      "name": "Cacém",
+      "address": "Rua Elias Garcia 2",
+      "latlng": "38.766274,-9.298728"
+    },
+    {
+      "name": "Oeiras",
+      "address": "Largo Henrique de Paiva Couceiro 637",
+      "latlng": "38.68857,-9.316615"
+    },
+    {
+      "name": "Sete-Rios",
+      "address": "Avenida Columbano Bordalo Pinheiro 118",
+      "latlng": "38.740439,-9.167436"
+    },
+    {
+      "name": "Praça de Londres",
+      "address": "Terminal Rodoviário da Praça de Londres",
+      "latlng": "38.740381,-9.137436"
+    },
+    {
+      "name": "Taguspark",
+      "address": "Avenida Professor Doutor Cavaco Silva A1",
+      "latlng": "38.736598,-9.301842"
     }
   ],
   "date": [
     {
-      "start": "15/09/2014",
-      "end": "30/09/2014",
+      "start": "21/09/2020",
+      "end": "30/09/2020",
       "type": "weekday"
     },
     {
-      "start": "01/10/2014",
-      "end": "31/10/2014",
+      "start": "01/10/2020",
+      "end": "30/10/2020",
       "type": "weekday"
     },
     {
-      "start": "03/11/2014",
-      "end": "28/11/2014",
+      "start": "02/11/2020",
+      "end": "30/11/2020",
       "type": "weekday"
+    },
+    {
+      "start": "01/12/2020",
+      "end": "18/12/2020",
+      "type": "weekday"
+    },
+    {
+      "start": "01/01/2021",
+      "end": "08/01/2021",
+      "type": "weekday"
+    },
+    {
+      "start": "01/03/2021",
+      "end": "26/03/2021",
+      "type": "weekday"
+    },
+    {
+      "start": "05/04/2021",
+      "end": "30/04/2021",
+      "type": "weekday"
+    },
+    {
+      "start": "03/05/2021",
+      "end": "31/05/2021",
+      "type": "weekday"
+    },
+    {
+      "start": "01/06/2021",
+      "end": "04/06/2021",
+      "type": "weekday"
+    },
+    {
+      "start": "05/10/2020",
+      "end": "05/10/2020",
+      "type": "dayoff"
+    },
+    {
+      "start": "01/11/2020",
+      "end": "01/11/2020",
+      "type": "dayoff"
+    },
+    {
+      "start": "01/12/2020",
+      "end": "01/12/2020",
+      "type": "dayoff"
+    },
+    {
+      "start": "08/12/2020",
+      "end": "08/12/2020",
+      "type": "dayoff"
+    },
+    {
+      "start": "24/12/2020",
+      "end": "24/12/2020",
+      "type": "dayoff"
+    },
+    {
+      "start": "25/12/2020",
+      "end": "25/12/2020",
+      "type": "dayoff"
+    },
+    {
+      "start": "31/12/2020",
+      "end": "31/12/2020",
+      "type": "dayoff"
+    },
+    {
+      "start": "01/01/2021",
+      "end": "01/01/2021",
+      "type": "dayoff"
+    },
+    {
+      "start": "15/02/2021",
+      "end": "15/02/2021",
+      "type": "dayoff"
+    },
+    {
+      "start": "16/02/2021",
+      "end": "16/02/2021",
+      "type": "dayoff"
+    },
+    {
+      "start": "01/05/2021",
+      "end": "01/05/2021",
+      "type": "dayoff"
+    },
+    {
+      "start": "03/06/2021",
+      "end": "03/06/2021",
+      "type": "dayoff"
+    },
+    {
+      "start": "10/06/2021",
+      "end": "10/06/2021",
+      "type": "dayoff"
+    },
+    {
+      "start": "21/12/2020",
+      "end": "31/12/2020",
+      "type": "holidays"
+    },
+    {
+      "start": "22/02/2021",
+      "end": "26/02/2021",
+      "type": "holidays"
+    },
+    {
+      "start": "29/03/2021",
+      "end": "31/03/2021",
+      "type": "holidays"
+    },
+    {
+      "start": "01/04/2021",
+      "end": "01/04/2021",
+      "type": "holidays"
+    },
+    {
+      "start": "07/06/2021",
+      "end": "11/06/2021",
+      "type": "holidays"
+    },
+    {
+      "start": "01/07/2021",
+      "end": "05/07/2021",
+      "type": "holidays"
+    },
+    {
+      "start": "15/07/2021",
+      "end": "30/07/2021",
+      "type": "holidays"
+    },
+    {
+      "start": "11/01/2021",
+      "end": "29/01/2021",
+      "type": "exams"
+    },
+    {
+      "start": "01/02/2021",
+      "end": "19/02/2021",
+      "type": "exams"
+    },
+    {
+      "start": "14/06/2021",
+      "end": "30/06/2021",
+      "type": "exams"
+    },
+    {
+      "start": "06/07/2021",
+      "end": "14/07/2021",
+      "type": "exams"
     }
   ],
   "trips": [
@@ -29,6 +204,1005 @@
       "stations": [
         {
           "hour": "07.15",
+          "station": "Alameda"
+        },
+        {
+          "hour": "07.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "07.45",
+          "station": "Cacém"
+        },
+        {
+          "hour": "08.00",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "07.40",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "08.00",
+          "station": "Oeiras"
+        },
+        {
+          "hour": "08.25",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "07.45",
+          "station": "Alameda"
+        },
+        {
+          "hour": "07.55",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "08.30",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "08.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "08.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "08.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "09.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "09.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "09.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "10.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "10.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "10.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "11.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "11.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "11.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "12.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "12.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "12.30",
+          "station": "Oeiras"
+        },
+        {
+          "hour": "12.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "13.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "13.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "13.30",
+          "station": "Cacém"
+        },
+        {
+          "hour": "13.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "14.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "14.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "14.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "15.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "15.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "15.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "16.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "16.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "16.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "17.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "17.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "17.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "18.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "18.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "18.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "19.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "19.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "19.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "08.00",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "08.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "08.55",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "09.00",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "09.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "09.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "09.55",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "10.00",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "10.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "10.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "10.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "10.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "11.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "11.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "11.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "11.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "12.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "12.30",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "12.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "12.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "13.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "13.25",
+          "station": "Oeiras"
+        },
+        {
+          "hour": "13.40",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "13.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "13.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "14.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "14.25",
+          "station": "Cacém"
+        },
+        {
+          "hour": "14.40",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "14.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "14.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "15.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "15.30",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "15.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "15.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "16.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "16.30",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "16.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "16.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "17.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "17.30",
+          "station": "Oeiras"
+        },
+        {
+          "hour": "17.40",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "17.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "17.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "18.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "18.30",
+          "station": "Cacém"
+        },
+        {
+          "hour": "18.40",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "18.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "18.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "19.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "19.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "19.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "19.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "weekday",
+      "stations": [
+        {
+          "hour": "20.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "20.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "20.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "20.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "08.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "08.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "08.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "10.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "10.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "10.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "12.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "12.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "12.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "14.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "14.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "14.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "16.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "16.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "16.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "18.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "18.25",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "18.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "09.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "09.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "09.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "09.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "11.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "11.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "11.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "11.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "13.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "13.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "13.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "13.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "15.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "15.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "15.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "15.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "17.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "17.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "17.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "17.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "holidays",
+      "stations": [
+        {
+          "hour": "20.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "20.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "20.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "20.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "07.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "07.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "07.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "09.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "09.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "09.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "11.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "11.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "11.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "13.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "13.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "13.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "15.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "15.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "15.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "17.10",
+          "station": "Alameda"
+        },
+        {
+          "hour": "17.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "17.50",
+          "station": "Taguspark"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "08.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "08.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "08.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "10.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "10.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "10.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "10.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "12.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "12.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "12.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "12.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "14.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "14.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "14.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "14.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "16.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "16.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "16.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "16.50",
+          "station": "Alameda"
+        }
+      ]
+    },
+    {
+      "type": "exams",
+      "stations": [
+        {
+          "hour": "18.10",
+          "station": "Taguspark"
+        },
+        {
+          "hour": "18.20",
+          "station": "Sete-Rios"
+        },
+        {
+          "hour": "18.45",
+          "station": "Praça de Londres"
+        },
+        {
+          "hour": "18.50",
           "station": "Alameda"
         }
       ]

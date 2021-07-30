@@ -1,0 +1,24 @@
+{
+  "Alameda": {
+    "address": "Avenida Rovisco Pais, 1, 1049-001 Lisboa",
+    "campus": "Alameda",
+    "description": "Parque Estacionamento do campus Alameda do IST",
+    "freeSlots": 203,
+    "latlng": "38.738137,-9.139135",
+    "name": "Alameda",
+    "total": 595,
+    "updated": "2021-06-28 14:19:00",
+    "workingHours": "24h"
+  },
+  "Arco Do Cego": {
+    "address": "Parque do Arco Cego, Avenida João Crisóstomo, 1000-178 Lisboa",
+    "campus": "Alameda",
+    "description": "Parque Estacionamento do Arco do Cego",
+    "freeSlots": 0,
+    "latlng": "38.73640895,-9.14313902",
+    "name": "Arco do Cego",
+    "total": 70,
+    "updated": "2021-05-17 08:37:37",
+    "workingHours": "24"
+  }
+}
